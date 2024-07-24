@@ -1,0 +1,13 @@
+<h3 class="vue-items-list__caption">
+{% trans %}
+  Displays {{ custom_length }} items.
+{% endtrans %}
+</h3>
+
+<div{{
+  attributes
+    .setAttribute('id', 'vue-items-list'|clean_unique_id)
+    .setAttribute('data-vue-items-list', true)
+    .setAttribute('data-vue-items-length', custom_length)
+  }}>
+</div>

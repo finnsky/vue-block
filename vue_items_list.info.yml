@@ -1,0 +1,8 @@
+name: 'Vue Items List'
+type: module
+description:
+  Module fetches data from a public API endpoint
+  https://jsonplaceholder.typicode.com/posts and
+  displays configured amount of posts in a styled list format.
+package: Custom
+core_version_requirement: ^10 || ^11

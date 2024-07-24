@@ -1,0 +1,15 @@
+vue_items_list:
+  css:
+    component:
+      css/style.css: {}
+  js:
+    app/dist/vue-items-list.umd.cjs: {}
+  dependencies:
+    - core/drupal
+    - core/once
+    - vue_items_list/vue
+
+# Using CDN for test. Should be local library.
+vue:
+  js:
+    //unpkg.com/vue@3/dist/vue.global.prod.js: { type: external, minified: true }

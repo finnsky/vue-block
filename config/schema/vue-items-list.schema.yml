@@ -1,0 +1,7 @@
+block.settings.vue_items_list:
+  type: block_settings
+  label: 'Vue Items List settings'
+  mapping:
+    items_length:
+      type: number
+      label: 'How many items should be fetched'
